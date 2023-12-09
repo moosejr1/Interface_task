@@ -11,6 +11,24 @@ public class Werewolf extends Mutant implements Animal, Human{
     public Werewolf() {
         this.isHumanForm = true;
     }
+    @override
+    public String speak(){
+        if(boolean == true){
+            System.out.println("I am a human");
+        }else{
+            System.out.println("I cannot speak in wolf form");
+    }
+    public String sound(){
+        if(boolean == true){
+            System.out.println("No sound in human form.");
+        }else{
+            System.out.println("Howl!");
+        }
+
+    default String method();
+        
+        
+        
 
     public void transform() {
         isHumanForm = !isHumanForm;
